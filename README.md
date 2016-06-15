@@ -29,7 +29,7 @@ Config
 ------
 
 The npm scripts set a `NODE_ENV` environment varable, which is used to pick a config file in `config/`. Currently, they correspond to `config/development.js` and `config/test.js`. For now, both should contain the same info, a Google Maps API Browser key. Config files should look like this:
-```
+```js
 export const YOUR_VAL='yourapikey';
 
 ```
